@@ -1,4 +1,26 @@
-~*.tmp
-~$*.docx
+# Dependencies
+node_modules/
+
+# Documentation and reports
+README.md
 *.docx
 *.pdf
+
+# Audio files
+audio/
+
+# Temporary files
+*.tmp
+~$*
+
+# IDE files
+.vscode/
+
+# Server-specific ignores (in server/ subdirectory)
+server/node_modules/
+server/README.md
+server/audio/
+server/*.docx
+server/*.pdf
+server/*.tmp
+server/~$*
